@@ -1,0 +1,130 @@
+/* 🔧 Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('img/BCO.8156118c-62e9-445c-a7cd-a00b5fbf2c1a.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+/* 🔝 Navegación */
+header {
+  background-color: rgba(0, 0, 0, 0.904);
+  padding: 20px;
+  height: 70px;
+  image-orientation: flip;
+  width: 100%;
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: orange;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: orange;
+  float: right;
+  padding-left: 12px;
+}
+
+.img-principal {
+  float:left;
+  width: 350px;
+  height: 400px;
+}
+
+/* 🎯 Hero principal */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: orange;
+}
+
+.boton {
+  background-color: orange;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #ff6600;
+}
+
+/* 📦 Secciones */
+section {
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: orange;
+}
+
+section p {
+  font-size: 1em;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* 📞 Footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: orange;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.sticky-header-verde{
+  position: fixed;
+  top: 60px;
+  left: 1px;
+  justify-content: space-between;
+}
